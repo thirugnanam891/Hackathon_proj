@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">16</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">104,464</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC01_Homepage</td><td><a href="#m0">TC005_DoctorSelect</a></td><td rowspan="1">1709226442545</td><td rowspan="1">78</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCases.TC01_Homepage</td><td><a href="#m1">TC001_Location</a></td><td rowspan="1">1709226439829</td><td rowspan="1">1644</td></tr><tr class="passedeven"><td><a href="#m2">TC002_DropOption</a></td><td rowspan="1">1709226441761</td><td rowspan="1">111</td></tr><tr class="passedeven"><td><a href="#m3">TC003_DoctorSearch</a></td><td rowspan="1">1709226442107</td><td rowspan="1">67</td></tr><tr class="passedeven"><td><a href="#m4">TC004_SendDoctor</a></td><td rowspan="1">1709226442327</td><td rowspan="1">72</td></tr><tr class="passedodd"><td rowspan="5">testCases.TC02_DoctorPage</td><td><a href="#m5">TC001_PatientStory</a></td><td rowspan="1">1709226442823</td><td rowspan="1">20353</td></tr><tr class="passedodd"><td><a href="#m6">TC002_DoctorExp</a></td><td rowspan="1">1709226465708</td><td rowspan="1">2313</td></tr><tr class="passedodd"><td><a href="#m7">TC003_FilterSelect</a></td><td rowspan="1">1709226470006</td><td rowspan="1">7543</td></tr><tr class="passedodd"><td><a href="#m8">TC004_Relevance</a></td><td rowspan="1">1709226479044</td><td rowspan="1">3681</td></tr><tr class="passedodd"><td><a href="#m9">TC005_Doctor</a></td><td rowspan="1">1709226482872</td><td rowspan="1">1687</td></tr><tr class="passedeven"><td rowspan="3">testCases.TC03_SurgeriesList</td><td><a href="#m10">SurgeryList</a></td><td rowspan="1">1709226486563</td><td rowspan="1">3130</td></tr><tr class="passedeven"><td><a href="#m11">TC01_Surgery</a></td><td rowspan="1">1709226484761</td><td rowspan="1">1222</td></tr><tr class="passedeven"><td><a href="#m12">TC02_Scroll</a></td><td rowspan="1">1709226486277</td><td rowspan="1">35</td></tr><tr class="passedodd"><td rowspan="4">testCases.TC04_ForCorporates</td><td><a href="#m13">TC01_Corporate</a></td><td rowspan="1">1709226489930</td><td rowspan="1">3969</td></tr><tr class="passedodd"><td><a href="#m14">TC02_ScrollDown</a></td><td rowspan="1">1709226494183</td><td rowspan="1">147</td></tr><tr class="passedodd"><td><a href="#m15">TC03_Details</a></td><td rowspan="1">1709226494776</td><td rowspan="1">39567</td></tr><tr class="passedodd"><td><a href="#m16">TC04_Message</a></td><td rowspan="1">1709226534481</td><td rowspan="1">96</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.TC01_Homepage#TC005_DoctorSelect</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b405b9b8ccda7ac01b361d524aa53e50, clickElement {id=D53C8AC60CAEB25738687BC828FBD5DA_element_44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 115.0.5790.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b405b9b8ccda7ac01b361d524aa53e50)] -&gt; xpath: (//div[@data-qa-id=&apos;omni-suggestion-main&apos;])[1]]
+Session ID: b405b9b8ccda7ac01b361d524aa53e50
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+	at pageObjects.HomePage.selectDoctor(HomePage.java:65)
+	at testCases.TC01_Homepage.TC005_DoctorSelect(TC01_Homepage.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC01_Homepage#TC001_Location</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC01_Homepage#TC002_DropOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC01_Homepage#TC003_DoctorSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC01_Homepage#TC004_SendDoctor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC02_DoctorPage#TC001_PatientStory</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC02_DoctorPage#TC002_DoctorExp</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC02_DoctorPage#TC003_FilterSelect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC02_DoctorPage#TC004_Relevance</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC02_DoctorPage#TC005_Doctor</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC03_SurgeriesList#SurgeryList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC03_SurgeriesList#TC01_Surgery</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.TC03_SurgeriesList#TC02_Scroll</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.TC04_ForCorporates#TC01_Corporate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.TC04_ForCorporates#TC02_ScrollDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.TC04_ForCorporates#TC03_Details</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.TC04_ForCorporates#TC04_Message</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

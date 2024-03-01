@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="23" passed="16" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T22:37:11 IST" name="Suite" finished-at="2024-02-29T22:38:55 IST" duration-ms="104464">
+    <groups>
+      <group name="regression">
+        <method signature="TC01_Homepage.TC002_DropOption()[pri:2, instance:testCases.TC01_Homepage@d5b810e]" name="TC002_DropOption" class="testCases.TC01_Homepage"/>
+        <method signature="TC01_Homepage.TC004_SendDoctor()[pri:4, instance:testCases.TC01_Homepage@d5b810e]" name="TC004_SendDoctor" class="testCases.TC01_Homepage"/>
+        <method signature="TC01_Homepage.TC005_DoctorSelect()[pri:5, instance:testCases.TC01_Homepage@d5b810e]" name="TC005_DoctorSelect" class="testCases.TC01_Homepage"/>
+        <method signature="TC02_DoctorPage.TC001_PatientStory()[pri:1, instance:testCases.TC02_DoctorPage@57cf54e1]" name="TC001_PatientStory" class="testCases.TC02_DoctorPage"/>
+        <method signature="TC02_DoctorPage.TC002_DoctorExp()[pri:2, instance:testCases.TC02_DoctorPage@57cf54e1]" name="TC002_DoctorExp" class="testCases.TC02_DoctorPage"/>
+        <method signature="TC02_DoctorPage.TC003_FilterSelect()[pri:3, instance:testCases.TC02_DoctorPage@57cf54e1]" name="TC003_FilterSelect" class="testCases.TC02_DoctorPage"/>
+        <method signature="TC02_DoctorPage.TC005_Doctor()[pri:5, instance:testCases.TC02_DoctorPage@57cf54e1]" name="TC005_Doctor" class="testCases.TC02_DoctorPage"/>
+        <method signature="TC03_SurgeriesList.SurgeryList()[pri:3, instance:testCases.TC03_SurgeriesList@5b03b9fe]" name="SurgeryList" class="testCases.TC03_SurgeriesList"/>
+        <method signature="TC03_SurgeriesList.TC01_Surgery()[pri:1, instance:testCases.TC03_SurgeriesList@5b03b9fe]" name="TC01_Surgery" class="testCases.TC03_SurgeriesList"/>
+        <method signature="TC04_ForCorporates.TC01_Corporate()[pri:1, instance:testCases.TC04_ForCorporates@37d4349f]" name="TC01_Corporate" class="testCases.TC04_ForCorporates"/>
+        <method signature="TC04_ForCorporates.TC03_Details()[pri:3, instance:testCases.TC04_ForCorporates@37d4349f]" name="TC03_Details" class="testCases.TC04_ForCorporates"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC01_Homepage.TC001_Location()[pri:1, instance:testCases.TC01_Homepage@d5b810e]" name="TC001_Location" class="testCases.TC01_Homepage"/>
+        <method signature="TC01_Homepage.TC003_DoctorSearch()[pri:3, instance:testCases.TC01_Homepage@d5b810e]" name="TC003_DoctorSearch" class="testCases.TC01_Homepage"/>
+        <method signature="TC02_DoctorPage.TC004_Relevance()[pri:4, instance:testCases.TC02_DoctorPage@57cf54e1]" name="TC004_Relevance" class="testCases.TC02_DoctorPage"/>
+        <method signature="TC03_SurgeriesList.TC02_Scroll()[pri:2, instance:testCases.TC03_SurgeriesList@5b03b9fe]" name="TC02_Scroll" class="testCases.TC03_SurgeriesList"/>
+        <method signature="TC04_ForCorporates.TC02_ScrollDown()[pri:2, instance:testCases.TC04_ForCorporates@37d4349f]" name="TC02_ScrollDown" class="testCases.TC04_ForCorporates"/>
+        <method signature="TC04_ForCorporates.TC04_Message()[pri:4, instance:testCases.TC04_ForCorporates@37d4349f]" name="TC04_Message" class="testCases.TC04_ForCorporates"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-29T22:37:11 IST" name="Test" finished-at="2024-02-29T22:38:55 IST" duration-ms="104464">
+      <class name="testCases.TC02_DoctorPage">
+        <test-method signature="TC001_PatientStory()[pri:1, instance:testCases.TC02_DoctorPage@57cf54e1]" started-at="2024-02-29T22:37:22 IST" name="TC001_PatientStory" finished-at="2024-02-29T22:37:43 IST" duration-ms="20353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_PatientStory -->
+        <test-method signature="TC002_DoctorExp()[pri:2, instance:testCases.TC02_DoctorPage@57cf54e1]" started-at="2024-02-29T22:37:45 IST" name="TC002_DoctorExp" finished-at="2024-02-29T22:37:48 IST" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_DoctorExp -->
+        <test-method signature="TC003_FilterSelect()[pri:3, instance:testCases.TC02_DoctorPage@57cf54e1]" started-at="2024-02-29T22:37:50 IST" name="TC003_FilterSelect" finished-at="2024-02-29T22:37:57 IST" duration-ms="7543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_FilterSelect -->
+        <test-method signature="TC004_Relevance()[pri:4, instance:testCases.TC02_DoctorPage@57cf54e1]" started-at="2024-02-29T22:37:59 IST" name="TC004_Relevance" finished-at="2024-02-29T22:38:02 IST" duration-ms="3681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_Relevance -->
+        <test-method signature="TC005_Doctor()[pri:5, instance:testCases.TC02_DoctorPage@57cf54e1]" started-at="2024-02-29T22:38:02 IST" name="TC005_Doctor" finished-at="2024-02-29T22:38:04 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_Doctor -->
+      </class> <!-- testCases.TC02_DoctorPage -->
+      <class name="testCases.TC01_Homepage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:11 IST" name="setup" finished-at="2024-02-29T22:37:19 IST" duration-ms="7968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TC001_Location()[pri:1, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:19 IST" name="TC001_Location" finished-at="2024-02-29T22:37:21 IST" duration-ms="1644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_Location -->
+        <test-method signature="TC002_DropOption()[pri:2, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:21 IST" name="TC002_DropOption" finished-at="2024-02-29T22:37:21 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC002_DropOption -->
+        <test-method signature="TC003_DoctorSearch()[pri:3, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:22 IST" name="TC003_DoctorSearch" finished-at="2024-02-29T22:37:22 IST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC003_DoctorSearch -->
+        <test-method signature="TC004_SendDoctor()[pri:4, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:22 IST" name="TC004_SendDoctor" finished-at="2024-02-29T22:37:22 IST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC004_SendDoctor -->
+        <test-method signature="TC005_DoctorSelect()[pri:5, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:37:22 IST" name="TC005_DoctorSelect" finished-at="2024-02-29T22:37:22 IST" duration-ms="78" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b405b9b8ccda7ac01b361d524aa53e50, clickElement {id=D53C8AC60CAEB25738687BC828FBD5DA_element_44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 115.0.5790.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b405b9b8ccda7ac01b361d524aa53e50)] -> xpath: (//div[@data-qa-id='omni-suggestion-main'])[1]]
+Session ID: b405b9b8ccda7ac01b361d524aa53e50]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=115.0.5790.99)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b405b9b8ccda7ac01b361d524aa53e50, clickElement {id=D53C8AC60CAEB25738687BC828FBD5DA_element_44}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.99, chrome: {chromedriverVersion: 115.0.5790.170 (cc0d30c2ca5..., userDataDir: C:\Windows\SystemTemp\scope...}, goog:chromeOptions: {debuggerAddress: localhost:56621}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56621/devtoo..., se:cdpVersion: 115.0.5790.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b405b9b8ccda7ac01b361d524aa53e50)] -> xpath: (//div[@data-qa-id='omni-suggestion-main'])[1]]
+Session ID: b405b9b8ccda7ac01b361d524aa53e50
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy48.click(Unknown Source)
+at pageObjects.HomePage.selectDoctor(HomePage.java:65)
+at testCases.TC01_Homepage.TC005_DoctorSelect(TC01_Homepage.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC005_DoctorSelect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_Homepage@d5b810e]" started-at="2024-02-29T22:38:54 IST" name="tearDown" finished-at="2024-02-29T22:38:55 IST" duration-ms="1182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_Homepage -->
+      <class name="testCases.TC03_SurgeriesList">
+        <test-method signature="TC01_Surgery()[pri:1, instance:testCases.TC03_SurgeriesList@5b03b9fe]" started-at="2024-02-29T22:38:04 IST" name="TC01_Surgery" finished-at="2024-02-29T22:38:05 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Surgery -->
+        <test-method signature="TC02_Scroll()[pri:2, instance:testCases.TC03_SurgeriesList@5b03b9fe]" started-at="2024-02-29T22:38:06 IST" name="TC02_Scroll" finished-at="2024-02-29T22:38:06 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_Scroll -->
+        <test-method signature="SurgeryList()[pri:3, instance:testCases.TC03_SurgeriesList@5b03b9fe]" started-at="2024-02-29T22:38:06 IST" name="SurgeryList" finished-at="2024-02-29T22:38:09 IST" duration-ms="3130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SurgeryList -->
+      </class> <!-- testCases.TC03_SurgeriesList -->
+      <class name="testCases.TC04_ForCorporates">
+        <test-method signature="TC01_Corporate()[pri:1, instance:testCases.TC04_ForCorporates@37d4349f]" started-at="2024-02-29T22:38:09 IST" name="TC01_Corporate" finished-at="2024-02-29T22:38:13 IST" duration-ms="3969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_Corporate -->
+        <test-method signature="TC02_ScrollDown()[pri:2, instance:testCases.TC04_ForCorporates@37d4349f]" started-at="2024-02-29T22:38:14 IST" name="TC02_ScrollDown" finished-at="2024-02-29T22:38:14 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_ScrollDown -->
+        <test-method signature="TC03_Details()[pri:3, instance:testCases.TC04_ForCorporates@37d4349f]" started-at="2024-02-29T22:38:14 IST" name="TC03_Details" finished-at="2024-02-29T22:38:54 IST" duration-ms="39567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03_Details -->
+        <test-method signature="TC04_Message()[pri:4, instance:testCases.TC04_ForCorporates@37d4349f]" started-at="2024-02-29T22:38:54 IST" name="TC04_Message" finished-at="2024-02-29T22:38:54 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC04_Message -->
+      </class> <!-- testCases.TC04_ForCorporates -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

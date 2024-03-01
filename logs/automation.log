@@ -1,0 +1,43 @@
+22:35:27.646 [main] INFO  testCases.TC01_Homepage - *******Starting the TC001 TestCases********
+22:35:29.047 [main] INFO  testCases.TC01_Homepage - ******Clicking the location Text Box*******
+22:35:29.146 [main] INFO  testCases.TC01_Homepage - ******Clearing the location Text Box*******
+22:35:29.341 [main] INFO  testCases.TC01_Homepage - ******Sending Location******
+22:35:29.834 [main] INFO  testCases.TC01_Homepage - *****Selecting Current Location******
+22:35:30.178 [main] INFO  testCases.TC01_Homepage - *****Search Doctor type******
+22:35:30.419 [main] INFO  testCases.TC01_Homepage - ****Sending preffered doctor******
+22:35:30.883 [main] INFO  testCases.TC01_Homepage - *************Starting TC002 TestCases************
+22:37:19.844 [main] INFO  testCases.TC01_Homepage - *******Starting the TC001 TestCases********
+22:37:21.184 [main] INFO  testCases.TC01_Homepage - ******Clicking the location Text Box*******
+22:37:21.314 [main] INFO  testCases.TC01_Homepage - ******Clearing the location Text Box*******
+22:37:21.473 [main] INFO  testCases.TC01_Homepage - ******Sending Location******
+22:37:21.871 [main] INFO  testCases.TC01_Homepage - *****Selecting Current Location******
+22:37:22.174 [main] INFO  testCases.TC01_Homepage - *****Search Doctor type******
+22:37:22.399 [main] INFO  testCases.TC01_Homepage - ****Sending preffered doctor******
+22:37:22.824 [main] INFO  testCases.TC01_Homepage - *************Starting TC002 TestCases************
+22:37:40.963 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:42.167 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:45.876 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:47.014 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:50.170 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:51.289 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:54.452 [main] INFO  testCases.TC01_Homepage - Clicking patient Stories
+22:37:56.548 [main] INFO  testCases.TC01_Homepage - Clicking availabilty
+22:37:59.156 [main] INFO  testCases.TC01_Homepage - Clicking Relevance DropDown
+22:38:01.715 [main] INFO  testCases.TC01_Homepage - Selecting Fee Description
+22:38:04.559 [main] INFO  testCases.TC01_Homepage - Extracting Doctors information
+22:38:04.559 [main] INFO  testCases.TC01_Homepage - ************Ending TC002 TestCases************
+22:38:04.763 [main] INFO  testCases.TC01_Homepage - ************Starting TC003 TestCases************
+22:38:05.983 [main] INFO  testCases.TC01_Homepage - Navigating to Surgeries page
+22:38:06.312 [main] INFO  testCases.TC01_Homepage - Scrolling down to Popular Surgeries
+22:38:09.693 [main] INFO  testCases.TC01_Homepage - Fetching List of Surgeries
+22:38:09.693 [main] INFO  testCases.TC01_Homepage - ************Ending TC003 TestCases************
+22:38:09.931 [main] INFO  testCases.TC01_Homepage - ************Starting TC004 TestCases************
+22:38:10.123 [main] INFO  testCases.TC01_Homepage - Navigate to For Corporates DropDown
+22:38:13.899 [main] INFO  testCases.TC01_Homepage - Selecting Health and wellness plan
+22:38:14.329 [main] INFO  testCases.TC01_Homepage - Scrolling down
+22:38:54.343 [main] INFO  testCases.TC01_Homepage - Fetched basic details like name,contact,email etc
+22:38:54.511 [main] INFO  testCases.TC01_Homepage - printing Thank you Message
+22:38:54.538 [main] INFO  testCases.TC01_Homepage - printing Details of Message
+22:38:54.577 [main] INFO  testCases.TC01_Homepage - Thankyou Message Verified
+22:38:54.577 [main] INFO  testCases.TC01_Homepage - ScreenShot taken
+22:38:54.577 [main] INFO  testCases.TC01_Homepage - ************Ending TC004 TestCases************
